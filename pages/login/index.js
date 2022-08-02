@@ -36,6 +36,7 @@ export default function Login() {
           align-items: center;
           justify-content: center;
           background-color: #2c2c2c;
+          height: 100vh;
         }
 
         section {
