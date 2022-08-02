@@ -1,8 +1,8 @@
 import Image from "next/dist/client/image";
 import Button from "../../components/Button";
+import Divider from "../../components/Divider";
 import Input from "../../components/Input";
 import logo from "../../public/Logo.jpg";
-
 export default function Login() {
   return (
     <>
@@ -18,7 +18,6 @@ export default function Login() {
           </div>
           <Input nombre={"Email"}></Input>
           <Input nombre={"Clave"}></Input>
-
           <div className="container-2">
             <Button
               contenido={"ingresar"}
@@ -26,40 +25,44 @@ export default function Login() {
               colorLetra={"#343C4C"}
             />
           </div>
-          <h6 className="Container">No recuerdo mi contraseña</h6>
+          <Divider></Divider>
+          <h5 className="Container">No recuerdo mi contraseña</h5>
         </section>
       </div>
-
       <style jsx>{`
         .container {
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: #2c2c2c;
+          background-color: #343c4c;
           height: 100vh;
         }
 
         section {
           display: grid;
-          height: 100%;
-          place-content: center;
+          width: 24%;
+          border: 4px solid #ffffff;
+          border-radius: 30px;
+          padding: 3%;
+          background-color: #2c2c2c;
         }
-
         .container-2 {
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-top: 5%;
+          margin-top: 8%;
         }
-
         .image {
           display: flex;
           align-items: center;
           justify-content: center;
+          margin: 5%;
         }
-
-        h6 {
+        h5 {
           color: #bcda21;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       `}</style>
     </>
