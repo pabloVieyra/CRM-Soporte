@@ -11,7 +11,7 @@ export default function Button({ contenido, color, colorLetra }) {
           color: ${colorLetra};
           cursor: pointer;
           display: flex;
-          font-size: 15px;
+          font-size: 20px;
           font-weight: bold;
           padding: 5px 18px;
           transition: opacity 0.3s ease;

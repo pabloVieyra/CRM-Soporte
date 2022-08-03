@@ -8,10 +8,10 @@ export default function Input({ nombre }) {
           h3 {
             color: #bcda21;
           }
-
           input {
             border-radius: 5px;
             border: 1px solid #39c;
+            height: 160%;
           }
         `}
       </style>
