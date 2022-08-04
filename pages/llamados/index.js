@@ -1,5 +1,3 @@
-export default function Llamados(){
-    return(<>
-    
-    </>)
+export default function Llamados() {
+  return <></>;
 }
